@@ -1,4 +1,4 @@
-local Charm = require(script.Parent.Parent.charm)
+local Charm = require(script.Parent.Parent.Charm)
 local Vide = if script.Parent.Parent:FindFirstChild("Vide")
 	then require(script.Parent.Parent.Vide)
 	else require((script.Parent.Parent :: any).vide.src) :: never
